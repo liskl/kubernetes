@@ -127,6 +127,7 @@ func processMounts(mounts []*mount.Info, excludedMountpointPrefixes []string) ma
 		"btrfs": true,
 		"xfs":   true,
 		"zfs":   true,
+		"tmpfs": true,
 	}
 
 	for _, mount := range mounts {
